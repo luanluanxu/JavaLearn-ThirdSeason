@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TraverArrayList.iml" filepath="$PROJECT_DIR$/TraverArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaLearn-ThirdSeason.iml" filepath="$PROJECT_DIR$/.idea/JavaLearn-ThirdSeason.iml" />
     </modules>
   </component>
 </project>

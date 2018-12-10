@@ -1,15 +1,15 @@
-package com.czxh.lzh;
+package com.czxy.lzh;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Main {
+public class ArrayListDemo {
 
     public static void main(String[] args) {
-        ArrayList<String> arrayList = new ArrayList();
+        ArrayList<String> arrayList = new ArrayList<>();
         arrayList.add("小红");
         arrayList.add("小白");
-        ArrayList<String> arrayList1 = new ArrayList();
+        ArrayList<String> arrayList1 = new ArrayList<>();
         arrayList1.add("小兰");
         arrayList1.add("小星");
         // 合并集合
@@ -20,10 +20,10 @@ public class Main {
             System.out.println(obj);
         }
         //　ArrayList遍历器 不推荐使用
-        Iterator iterator = arrayList.iterator();
-        while(iterator.hasNext()){
-            System.out.println(iterator.next());
-        }
+//        Iterator iterator = arrayList.iterator();
+//        while(iterator.hasNext()){
+//            System.out.println(iterator.next());
+//        }
 
     }
 }
