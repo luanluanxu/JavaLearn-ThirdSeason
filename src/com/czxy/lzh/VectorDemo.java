@@ -4,6 +4,7 @@ import java.util.Vector;
 
 public class VectorDemo {
     public static void main(String[] args) {
+        // 与ArrayList的区别是　Vector是同步的，线程安全
         Vector<String> vector = new Vector<>();
         vector.add("小兰");
         vector.add("小白");
